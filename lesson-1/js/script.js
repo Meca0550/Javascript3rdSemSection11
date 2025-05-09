@@ -25,9 +25,9 @@
 		*/
 
 		// STEP 2: Get the EM element and store as a variable, using const
-		let Element = document.querySelector('em');
+		let element = document.querySelector('em');
 		// STEP 3: Assign a click event listener to the above element, and include a reference to the function to be invoked
-		element.addEventListener('click', updatename()) ;
+		element.addEventListener('click', updatename) ;
 	
 		
 		// STEP 4: Creat a function that waits for the above click event
